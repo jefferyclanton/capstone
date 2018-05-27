@@ -74,17 +74,26 @@ li a {
   font-size: 1.1rem;
 }
 
+.article-layout {
+  height: 34.4rem;
+}
+
+.article-box {
+  margin: 32px 0 32px 24px;
+}
+
 .article-flex {
   display: flex;
 }
 
 .featured-article {
   width: 60%;
+  padding-right: 24px;
+  height: 100%;
 }
 .featured-article img {
   height: auto;
   width: 100%;
-  padding: 2rem 1rem;
 }
 
 .read-more {
@@ -92,8 +101,7 @@ li a {
   flex-direction: column;
   align-items: center;
   width: 40%;
-  margin-left: 24px;
-  margin-top: 32px;
+  height: 34.4rem;
 }
 
 .top-article {
@@ -109,6 +117,51 @@ li a {
 }
 
 .article-content {
-  text-align: center;
+  height: 10.9rem;
   margin: auto;
+}
+
+.article-content p {
+  padding: .5rem 0;
+}
+
+.article-image {
+  width: 33%;
+}
+
+.article-image img {
+  height: 85%;
+}
+
+.courses {
+  background-color: lightgray;
+  padding: 2rem 4.5rem;
+}
+
+.course-padding {
+  padding: .5rem 0;
+}
+
+.course-list h3:first-child {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.course-box-top {
+  display: flex;
+}
+
+.course-box-bottom {
+  display: flex;
+}
+
+.flex-item {
+    background-color: white;
+    width: 33%;
+    margin: 2rem;
+}
+
+.flex-item img {
+  width: 100%;
+  height: auto;
 }
