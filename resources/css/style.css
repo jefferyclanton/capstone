@@ -139,7 +139,7 @@ li a {
 }
 
 .course-padding {
-  padding: .5rem 0;
+  padding: .5rem 1rem;
 }
 
 .course-list h3:first-child {
@@ -164,4 +164,17 @@ li a {
 .flex-item img {
   width: 100%;
   height: auto;
+}
+
+.flex-item h3 {
+  padding-top: 1rem;
+}
+
+.flex-item h3, p {
+  padding-left: 1rem;
+}
+
+.thesis h2 {
+  text-align: center;
+  margin: 2rem auto;
 }
