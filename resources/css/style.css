@@ -170,11 +170,66 @@ li a {
   padding-top: 1rem;
 }
 
-.flex-item h3, p {
+.flex-item h3 {
   padding-left: 1rem;
 }
 
-.thesis h2 {
+.flex-item p {
+  padding-left: 1rem;
+}
+
+.thesis {
+  display: flex;
+}
+
+.thesis-title h2 {
   text-align: center;
   margin: 2rem auto;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 2rem 1.5rem 1.5rem 1.5rem;
+}
+
+video {
+  width: 100%;
+}
+
+.video-content h3 {
+  margin-top: 24px;
+}
+
+.video-content p {
+  margin: .5rem 0 2rem 0;
+}
+
+.see-more {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.see-more img {
+  width: 14rem;
+  margin-top: 2rem;
+  padding: 1rem 1rem;
+}
+
+.top-thesis {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bottom-thesis {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.thesis-content h3 {
+  font-size: 1.5rem;
 }
