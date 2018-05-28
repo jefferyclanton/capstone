@@ -3,6 +3,7 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
+  font-family: 'Arvo', serif;
 }
 
 header {
@@ -21,7 +22,7 @@ header img {
 }
 
 span {
-  color: gray;
+  color: cornflowerblue;
   font-weight: lighter;
 }
 
@@ -42,12 +43,12 @@ ul li:last-child {
 
 li a {
   text-decoration: none;
-  color: black;
+  color: cornflowerblue;
 }
 
 .banner {
   display: flex;
-  background-color: lightgray;
+  background-color: cornflowerblue;
 }
 
 .banner img {
@@ -64,14 +65,16 @@ li a {
 
 .content {
   font-size: 1.2rem;
+  color: floralwhite;
 }
 
 .button button {
   color: white;
-  background-color: dimgray;
+  background-color: orangered;
   width: 100%;
   padding: .5rem;
   font-size: 1.1rem;
+  border-radius: .7rem;
 }
 
 .article-layout {
@@ -134,8 +137,9 @@ li a {
 }
 
 .courses {
-  background-color: lightgray;
-  padding: 2rem 4.5rem;
+  background-color: cornflowerblue;
+  padding-right: 4.5rem;
+  padding-left: 4.5rem;
 }
 
 .course-padding {
@@ -143,8 +147,13 @@ li a {
 }
 
 .course-list h3:first-child {
-    padding-top: 2rem;
-    text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 3rem;
+  border-top: 1px dashed gray;
+  border-bottom: 1px dashed gray;
+  color: black;
 }
 
 .course-box-top {
@@ -159,6 +168,7 @@ li a {
     background-color: white;
     width: 33%;
     margin: 2rem;
+    border: .2rem solid white;
 }
 
 .flex-item img {
@@ -180,11 +190,17 @@ li a {
 
 .thesis {
   display: flex;
+  border-bottom: 1px solid gray;
 }
 
 .thesis-title h2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   text-align: center;
-  margin: 2rem auto;
+  font-size: 3rem;
+  border-top: 1px dashed gray;
+  border-bottom: 1px dashed gray;
+  color: black;
 }
 
 .video {
@@ -216,6 +232,7 @@ video {
   width: 14rem;
   margin-top: 2rem;
   padding: 1rem 1rem;
+  padding-top: 0;
 }
 
 .top-thesis {
@@ -232,4 +249,29 @@ video {
 
 .thesis-content h3 {
   font-size: 1.5rem;
+}
+
+footer {
+  display: flex;
+}
+
+.left-footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.left-footer p {
+  margin-left: .3rem;
+}
+
+.right-footer {
+  display: flex;
+  align-items: center;
+}
+
+.right-footer a {
+  text-decoration: none;
+  margin: 0 1rem;
+  color: black;
 }

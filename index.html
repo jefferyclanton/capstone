@@ -2,8 +2,14 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href='resources/css/style.css' type="text/css" rel="stylesheet">
+    <script>
+      function alwaysTomorrow() {
+        alert('Registration Starts Tomorrow!')
+      }
+    </script>
     <title>Colmar Academy</title>
   </head>
   <body>
@@ -36,7 +42,7 @@
     <h1>Learn something <br> new every day</h1>
     <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit</p>
   </div>
-  <div class="button">
+  <div class="button" onClick="alwaysTomorrow()">
     <button>Start Here</button>
   </div>
   </div>
@@ -179,8 +185,14 @@
 
 <div class="copyright">
   <footer>
+    <div class="left-footer">
     <i class="far fa-copyright"></i>
-
+    <p>2016 Colmar Academy. All right reserved</p>
+  </div>
+  <div class="right-footer">
+    <a href="#">Terms</a>
+    <a href="#">Privacy</a>
+  </div>
   </footer>
 </div>
 
