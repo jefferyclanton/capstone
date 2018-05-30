@@ -11,7 +11,7 @@ header {
 }
 
 header img {
-  padding-left: 24px;
+  padding-left: 1.5rem;
 }
 
 .header {
@@ -53,14 +53,14 @@ li a {
 
 .banner img {
   width: 60%;
-  height: 500px;
+  height: 31.2rem;
   padding: 2rem 1rem;
 }
 
 .text-box {
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: 24px;
+  margin-left: 1.5rem;
 }
 
 .content {
@@ -78,11 +78,11 @@ li a {
 }
 
 .article-layout {
-  height: 34.4rem;
+  height: auto;
 }
 
 .article-box {
-  margin: 32px 0 32px 24px;
+  margin: 2rem 0 2rem 1.5rem;
 }
 
 .article-flex {
@@ -91,7 +91,7 @@ li a {
 
 .featured-article {
   width: 60%;
-  padding-right: 24px;
+  padding-right: 1.5rem;
   height: 100%;
 }
 .featured-article img {
@@ -102,9 +102,16 @@ li a {
 .read-more {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 40%;
-  height: 34.4rem;
+  height: auto;
+}
+
+.article-content h4 {
+  margin: 0;
+}
+
+.article-content p {
+  margin: 0.5rem 0;
 }
 
 .top-article {
@@ -113,6 +120,7 @@ li a {
 
 .middle-article {
   display: flex;
+  padding: 2rem 0;
 }
 
 .bottom-article {
@@ -120,8 +128,9 @@ li a {
 }
 
 .article-content {
-  height: 10.9rem;
+  height: auto;
   margin: auto;
+  width: 65%;
 }
 
 .article-content p {
@@ -130,10 +139,13 @@ li a {
 
 .article-image {
   width: 33%;
+  height: auto;
+  padding-right: 2rem;
 }
 
 .article-image img {
-  height: 85%;
+  width: 100%;
+  height: auto;
 }
 
 .courses {
@@ -215,7 +227,7 @@ video {
 }
 
 .video-content h3 {
-  margin-top: 24px;
+  margin-top: 1.5rem;
 }
 
 .video-content p {
