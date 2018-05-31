@@ -82,7 +82,7 @@ li a {
 .button button {
   color: white;
   background-color: orangered;
-  width: 100%;
+  width: 21rem;
   padding: .5rem;
   font-size: 1.1rem;
   border-radius: .7rem;
@@ -211,6 +211,10 @@ li a {
   padding-left: 1rem;
 }
 
+.course-mobile {
+  display: none;
+}
+
 .thesis {
   display: flex;
   border-bottom: 1px solid gray;
@@ -308,5 +312,98 @@ footer {
     display: flex;
     justify-content: space-around;
     width: 100%;
+  }
+
+  .banner {
+    display: block;
+    padding: 0;
+  }
+
+  .banner img {
+    padding: 0;
+  }
+
+  .image-container {
+    width: 100%;
+  }
+
+  .text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+  .content h1 {
+    font-size: 2.5rem;
+  }
+
+  .content p {
+        font-size: 1.3rem;
+  }
+
+  .featured-article {
+    display: none;
+  }
+
+  .top-article, .middle-article, .bottom-article {
+    display: block;
+  }
+
+  .read-more {
+    width: 100%;
+  }
+
+  .article-content {
+    margin: 0;
+    padding: 1rem 2rem;
+  }
+
+  .article-content h4 {
+    font-size: 1.3rem;
+  }
+
+  .article-image {
+    width: 100%;
+  }
+
+  .courses {
+    display: none;
+  }
+
+  .course-mobile {
+    display: block;
+  }
+
+  .course-mobile h2 {
+    padding: 1rem 0 1.5rem 1rem;
+    width: 90%;
+    margin-bottom: .5rem;
+    background-color: cornflowerblue;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .course-mobile a {
+    text-decoration: none;
+    color: floralwhite;
+  }
+
+  .video-content h3, .video-content p {
+    display: none;
+  }
+
+  .see-more {
+    display: none;
+  }
+
+  .video {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .copyright {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
